@@ -1,3 +1,5 @@
+          PROJECT INFO
+
 PROJECT LINK - https://linkedin-clone-99877.web.app/
 
 Right now all of the values for sidebar are fixed. Same thing goes for Widgets.
@@ -14,7 +16,7 @@ Website is not responsive for now so I recommend using it only on computer.
 
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
