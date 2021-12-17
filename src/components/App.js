@@ -1,12 +1,12 @@
-import Feed from './Feed';
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { login, logout, selectUser } from './features/userSlice';
-import './App.css';
+import { login, logout, selectUser } from '../features/userSlice';
+import '../styles/App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
+import Feed from './Feed';
 import Login from './Login';
-import { auth } from './firebase';
+import { auth } from '../firebase/firebase';
 import Widgets from './Widgets';
 
 function App() {
@@ -29,8 +29,6 @@ function App() {
       }
     });
   }, [dispatch]);
-
-  console.log(useEffect);
 
   return (
     <div className="app">

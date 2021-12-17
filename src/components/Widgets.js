@@ -1,5 +1,5 @@
 import React from 'react';
-import './Widgets.css';
+import '../styles/Widgets.css';
 import { FiberManualRecord, Info } from '@mui/icons-material';
 
 function Widgets() {

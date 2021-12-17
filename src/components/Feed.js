@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Feed.css';
+import '../styles/Feed.css';
 import CreateIcon from '@mui/icons-material/Create';
 import InputOption from './InputOption';
 import ImageIcon from '@mui/icons-material/Image';
@@ -7,10 +7,10 @@ import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import EventNoteIcon from '@mui/icons-material/EventNote';
 import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
 import Post from './Post';
-import { db } from './firebase';
+import { db } from '../firebase/firebase';
 import firebase from 'firebase/compat';
 import { useSelector } from 'react-redux';
-import { selectUser } from './features/userSlice';
+import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
 
 function Feed() {
