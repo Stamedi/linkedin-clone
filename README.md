@@ -2,7 +2,7 @@
 
 PROJECT LINK - https://linkedin-clone-99877.web.app/
 
-Right now all of the values for sidebar are fixed. Same thing goes for Widgets.
+Right now all of the values for sidebar are fixed. Same thing goes for widgets.
 Website is not responsive for now so I recommend using it only on computer.
 
 
