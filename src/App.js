@@ -28,7 +28,9 @@ function App() {
         dispatch(logout());
       }
     });
-  }, []);
+  }, [dispatch]);
+
+  console.log(useEffect);
 
   return (
     <div className="app">
